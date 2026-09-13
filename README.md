@@ -18,11 +18,11 @@ This is the initial **v0.1** release.
 | RI-0001 — The Forgetful Elevator | Available for solo play; original playtest with a fixed replay specification |
 | Personal history and solution templates | Ready to copy |
 | Weekly challenge rules | Documented; no event scheduled |
-| Official domain | reinventit.org — registered |
-| Website | Coming soon; not yet launched |
+| Official domain | [reinventit.org](https://reinventit.org) |
+| Website | [Live: start playing at reinventit.org](https://reinventit.org) |
 | Online submissions and community gallery | Not available |
 
-The [GitHub repository](https://github.com/Ryan-M-Frank/recreate-it) is the official home for now. You do not need a Reinvent It account or a GitHub account to read or download the public game files. Your chosen AI service may have its own access requirements.
+Start at **[reinventit.org](https://reinventit.org)** to copy the starter prompt and find the first challenge. The [GitHub repository](https://github.com/Ryan-M-Frank/recreate-it) remains the official source for the versioned game files. You do not need a Reinvent It account or a GitHub account to read or download the public game files. Your chosen AI service may have its own access requirements.
 
 ## What you need
 
@@ -148,19 +148,19 @@ A submitted or frozen attempt does not unlock early comparison. An explicit earl
 
 See [the weekly rules](docs/weekly-challenges.md) for the full lifecycle.
 
-**Launch information — to be filled in when available:**
+**Website and weekly-event status:**
 
-| Item | Current placeholder |
+| Item | Current status |
 | --- | --- |
-| Official domain | reinventit.org — registered through Cloudflare |
-| Website / getting-started page | Coming soon at reinventit.org; not yet launched |
-| Challenge catalog | This repository; website catalog planned |
+| Official domain | [reinventit.org](https://reinventit.org) — registered through Cloudflare |
+| Website / getting-started page | [Live at reinventit.org](https://reinventit.org) |
+| Challenge catalog | RI-0001 on the website; source packets in this repository |
 | Current weekly challenge | None scheduled |
 | Release, close, and reveal times | To be announced in UTC for each event |
 | Private submission destination | Not implemented |
 | Post-reveal solution gallery | Not implemented |
 
-The domain is registered; the website, weekly events, and submission services are still planned. No weekly event should launch until its fixed packet, schedule, and private intake are available. A future website will distribute challenges and support the community; the game itself remains portable Markdown.
+The website is live. Weekly events and submission services are still planned. No weekly event should launch until its fixed packet, schedule, and private intake are available. The website helps players get started and links to the official challenge files; the game itself remains portable Markdown.
 
 ## What makes this game different?
 
@@ -186,6 +186,12 @@ RI-0001 preserves the original elevator playtest. Its spoiler-bearing GM packet 
 | [RI-0001/player.md](challenges/RI-0001/player.md) | Read the public challenge |
 | [RI-0001/manifest.yaml](challenges/RI-0001/manifest.yaml) | Let the GM check challenge metadata |
 | `challenges/RI-0001/gm.md` | GM-only spoilers, tests, comparison, and playtest record |
+
+## Website source
+
+The landing page and Cloudflare deployment configuration live in [site/](site/README.md). The site is a small public guide with a copyable starter prompt; it does not run an AI backend or accept submissions.
+
+Created by **Ryan M. Frank**.
 
 ## Feedback and contributions
 
