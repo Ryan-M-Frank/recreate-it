@@ -22,6 +22,14 @@ Generate a fresh summary using SUBMISSION_TEMPLATE.md. Strip personal informatio
 
 A future submission website must validate the accepted format and render user content safely, disabling raw HTML, scripts, executable embeds, and unsafe links. Author-side sanitization does not replace safe rendering. No such service is implemented here.
 
+## Website security and privacy
+
+The v0.1 website serves a fixed page; it has no accounts, uploads, submission endpoint, database, or AI backend. It does not store game history, read the clipboard, set cookies, or load third-party scripts. The copy button writes only the displayed starter prompt when clicked. Your chosen AI service and GitHub have their own data-handling practices.
+
+Cloudflare provides hosting and may process connection metadata and diagnostic logs. Worker logs are sampled, with query strings redacted. Do not put personal information or credentials in URLs. Browser security restrictions and deployment checks are documented in [site/README.md](site/README.md).
+
+Public Git commits also contain author metadata. Contributors should use an appropriate public or GitHub no-reply email before committing. Ignoring a file does not remove it from existing history; exposed credentials require revocation, not just deletion.
+
 ## Reporting
 
 Report ordinary documentation defects through a repository issue, without personal data or hidden challenge details in its title. For sensitive issues, use GitHub private vulnerability reporting if enabled; otherwise request a private contact without publishing exploit details or secrets. This repository does not yet announce a dedicated security contact.

@@ -1,0 +1,11 @@
+# Local secrets and deployment state
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.wrangler/
+node_modules/
+
+# Personal game records and drafts belong outside the public repository
+HISTORY.md
+private/
