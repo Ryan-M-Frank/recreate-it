@@ -1,0 +1,22 @@
+# AUTHORING TEMPLATE — not eligible for play.
+# Replace the temporary ID and title only when preparing an official release.
+id: DRAFT-REPLACE
+title: "Replace with a spoiler-free title"
+version: "0.1.0"
+protocol_version: "0.1.0"
+type: solo
+status: draft
+original_playtest: false
+specification: fixed-contract
+official_repository: https://github.com/Ryan-M-Frank/recreate-it
+player_file: player.md
+gm_file: gm.md
+gm_contains_spoilers: true
+stage_count: 1
+release: null
+submission_close: null
+reveal: null
+submission_destination: null
+# Local packet paths only. No fingerprints, solution names, or revealing tags.
+# Weekly activation needs a tested private intake and exact UTC timestamps.
+# Record the final commit after it exists, in the release/review record.

@@ -199,6 +199,12 @@ Follow the [living v1.0 release plan](https://github.com/Ryan-M-Frank/recreate-i
 
 The next focus is outside playtesting, a repeatable challenge-authoring process, and improving the game from that feedback. The release scope can evolve as we learn; no v1.0 date or weekly event is scheduled by this plan.
 
+## Licensing
+
+Code is licensed under [MIT](LICENSE-CODE). The written game rules, challenges, templates, documentation, and website copy are licensed under [CC BY-SA 4.0](LICENSE-CONTENT), which requires attribution and share-alike terms when sharing adaptations. See [LICENSE](LICENSE) for the exact scope, including files that combine code and prose.
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a change and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community expectations. Playing the game does not give this project permission to publish your private notes or solutions.
+
 ## Feedback and contributions
 
 Use [repository issues](https://github.com/Ryan-M-Frank/recreate-it/issues) for unclear rules, documentation problems, and playtest feedback. Include the challenge version and a spoiler-free description. Keep answers out of issue titles.

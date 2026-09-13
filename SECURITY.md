@@ -32,4 +32,10 @@ Public Git commits also contain author metadata. Contributors should use an appr
 
 ## Reporting
 
-Report ordinary documentation defects through a repository issue, without personal data or hidden challenge details in its title. For sensitive issues, use GitHub private vulnerability reporting if enabled; otherwise request a private contact without publishing exploit details or secrets. This repository does not yet announce a dedicated security contact.
+Use [GitHub's private vulnerability reporting form](https://github.com/Ryan-M-Frank/recreate-it/security/advisories/new) for security vulnerabilities or accidental exposure of credentials. This route is enabled; it sends a private report to the repository maintainers rather than creating a public issue. A GitHub sign-in is required to submit.
+
+Include the affected page or repository version, a minimal reproduction, the expected and observed behavior, and the potential impact. Remove live credentials, personal records, and unrelated conversation. Do not publish exploit details or secrets in an ordinary issue or pull request, and do not access other people's data to demonstrate a problem.
+
+The maintainer will assess the report and coordinate a fix or clarification as capacity allows. There is no guaranteed response time. Do not submit a fake vulnerability merely to test this route.
+
+For ordinary documentation defects, use the bug-report template with a spoiler-free title. For harassment or moderation questions, follow [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md); a security advisory is not a general complaint inbox.
