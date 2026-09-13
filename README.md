@@ -193,6 +193,12 @@ The landing page and Cloudflare deployment configuration live in [site/](site/RE
 
 Created by **Ryan M. Frank**.
 
+## Road to v1.0
+
+Follow the [living v1.0 release plan](https://github.com/Ryan-M-Frank/recreate-it/issues/1) for priorities, linked work items, and proposed completion criteria. Each issue records its decisions, evidence, and remaining work; GitHub issue status is the source of progress.
+
+The next focus is outside playtesting, a repeatable challenge-authoring process, and improving the game from that feedback. The release scope can evolve as we learn; no v1.0 date or weekly event is scheduled by this plan.
+
 ## Feedback and contributions
 
 Use [repository issues](https://github.com/Ryan-M-Frank/recreate-it/issues) for unclear rules, documentation problems, and playtest feedback. Include the challenge version and a spoiler-free description. Keep answers out of issue titles.
