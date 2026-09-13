@@ -1,4 +1,4 @@
-# Recreate It — game rules v0.1
+# Reinvent It — game rules v0.1
 
 ## Purpose and roles
 

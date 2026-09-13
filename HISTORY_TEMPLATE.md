@@ -1,4 +1,4 @@
-# Recreate It — personal HISTORY
+# Reinvent It — personal HISTORY
 
 Copy this file to your own private `HISTORY.md`. Bring it with GAME.md to each new session; do not assume a model remembers prior sessions.
 

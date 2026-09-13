@@ -1,4 +1,4 @@
-# Recreate It — solution submission
+# Reinvent It — solution submission
 
 Create a new document from this template. Replace the prompts, remove unused fields, and have the player review the finished artifact before any upload. Do not attach the raw chat, personal HISTORY, or GM packet.
 

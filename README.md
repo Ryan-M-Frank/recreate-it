@@ -1,8 +1,8 @@
-# Recreate It
+# Reinvent It
 
 **Invent a solution before you discover how other people solved the problem.**
 
-Recreate It is a thinking game you play with an AI acting as your Game Master (GM). It gives you a practical problem, lets you develop an idea, and helps test it. When you end the round, you compare your design with established approaches.
+Reinvent It is a thinking game you play with an AI acting as your Game Master (GM). It gives you a practical problem, lets you develop an idea, and helps test it. When you end the round, you compare your design with established approaches.
 
 > The goal isn't to guess the known algorithm. The goal is to invent a solution before you know what everyone else invented.
 
@@ -18,10 +18,11 @@ This is the initial **v0.1** release.
 | RI-0001 — The Forgetful Elevator | Available for solo play; original playtest with a fixed replay specification |
 | Personal history and solution templates | Ready to copy |
 | Weekly challenge rules | Documented; no event scheduled |
-| Official website and domain | Not available; a domain has not been purchased |
+| Official domain | reinventit.org — registered |
+| Website | Coming soon; not yet launched |
 | Online submissions and community gallery | Not available |
 
-The [GitHub repository](https://github.com/Ryan-M-Frank/recreate-it) is the official home for now. You do not need a Recreate It account or a GitHub account to read or download the public game files. Your chosen AI service may have its own access requirements.
+The [GitHub repository](https://github.com/Ryan-M-Frank/recreate-it) is the official home for now. You do not need a Reinvent It account or a GitHub account to read or download the public game files. Your chosen AI service may have its own access requirements.
 
 ## What you need
 
@@ -38,7 +39,7 @@ No particular AI vendor is required. File access and instruction-following vary 
 Copy this prompt into your AI tool:
 
 ```text
-Let's play Recreate It in solo mode.
+Let's play Reinvent It in solo mode.
 
 Official repository:
 https://github.com/Ryan-M-Frank/recreate-it
@@ -121,7 +122,7 @@ For a paused round, keep the proposed design, open questions, challenge version,
 Next time, provide your history and say:
 
 ```text
-Load the Recreate It rules and my HISTORY.md. Choose an official solo
+Load the Reinvent It rules and my HISTORY.md. Choose an official solo
 challenge with low overlap in underlying concepts and mechanisms.
 Do not reveal candidate fingerprints. If none is fresh, say so and
 ask before offering an intentional repeat.
@@ -151,15 +152,15 @@ See [the weekly rules](docs/weekly-challenges.md) for the full lifecycle.
 
 | Item | Current placeholder |
 | --- | --- |
-| Official domain | Not purchased; domain name to be announced |
-| Website / getting-started page | Not built or published |
+| Official domain | reinventit.org — registered through Cloudflare |
+| Website / getting-started page | Coming soon at reinventit.org; not yet launched |
 | Challenge catalog | This repository; website catalog planned |
 | Current weekly challenge | None scheduled |
 | Release, close, and reveal times | To be announced in UTC for each event |
 | Private submission destination | Not implemented |
 | Post-reveal solution gallery | Not implemented |
 
-These are planning placeholders, not active services. No weekly event should launch until its fixed packet, schedule, and private intake are available. A future website will distribute challenges and support the community; the game itself remains portable Markdown.
+The domain is registered; the website, weekly events, and submission services are still planned. No weekly event should launch until its fixed packet, schedule, and private intake are available. A future website will distribute challenges and support the community; the game itself remains portable Markdown.
 
 ## What makes this game different?
 
