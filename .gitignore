@@ -9,3 +9,6 @@ node_modules/
 # Personal game records and drafts belong outside the public repository
 HISTORY.md
 private/
+
+# Generated server-side public asset bundle; rebuild before deployment
+site/generated-assets.mjs

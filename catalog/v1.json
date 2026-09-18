@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "catalog_version": "1",
+  "released_at": "2026-09-18",
+  "official_origin": "https://reinventit.org",
+  "official_repository": "https://github.com/Ryan-M-Frank/recreate-it",
+  "status_url": "https://reinventit.org/catalog/status.json",
+  "entries": [
+    {
+      "id": "RI-0001",
+      "version": "0.1.0",
+      "code": "RI-0001@0.1.0",
+      "title": "The Forgetful Elevator",
+      "description": "Keep track of requested floors in a 1,000-floor building and find the next requested destination in either direction. Design the representation and explain the cost of updates and lookups.",
+      "area": "Data structures",
+      "difficulty": null,
+      "duration_minutes": null,
+      "measurement_note": "Difficulty and duration have not been calibrated through independent playtests.",
+      "status": "archived",
+      "modes": [
+        "solo"
+      ],
+      "source_commit": "c16460c2a8248d360355ac5c4849a197ee1b1dbd",
+      "protocol_version": "0.1.0",
+      "original_playtest": true,
+      "run_url": "https://reinventit.org/runs/RI-0001@0.1.0.json",
+      "play_url": "https://reinventit.org/play/RI-0001@0.1.0",
+      "player_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/challenges/RI-0001/player.md"
+    }
+  ]
+}

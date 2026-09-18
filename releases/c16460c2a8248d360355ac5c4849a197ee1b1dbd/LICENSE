@@ -1,0 +1,29 @@
+# Reinvent It licensing
+
+Copyright (c) 2026 Ryan M. Frank and the respective contributors.
+
+Reinvent It uses two licenses for different material. These are not alternative licenses for the whole repository.
+
+## Code: MIT
+
+The project's software is licensed under the MIT License in [LICENSE-CODE](LICENSE-CODE). This covers the website's HTML structure, CSS and JavaScript, executable scripts and tests, and deployment and repository configuration, such as `site/worker.mjs`, `site/check.mjs`, `site/wrangler.jsonc`, and `.gitignore`.
+
+## Written material: CC BY-SA 4.0
+
+The game rules, GM protocol, challenge statements and GM packets, challenge manifests, game templates, documentation, and original human-readable website copy are licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). The full terms are in [LICENSE-CONTENT](LICENSE-CONTENT).
+
+This includes the prose in Markdown files, `challenges/`, and challenge-authoring templates. A challenge manifest is game material even though it uses YAML. Deployment configuration is code.
+
+`site/index.html` contains both kinds of material: its markup, styling, and script use MIT; its page copy and starter prompt use CC BY-SA 4.0. When distributing the whole page, retain the notices for both components. The same distinction applies to executable code examples within documentation and their surrounding prose.
+
+## Reuse and attribution
+
+Both licenses allow commercial reuse. For code, retain the MIT copyright and permission notices. For written material, credit the creators, link the source and license, indicate changes, and apply the share-alike terms when sharing adaptations. The license texts govern the exact requirements.
+
+Suggested credit for adapted written material:
+
+> Adapted from Reinvent It by Ryan M. Frank and contributors, https://github.com/Ryan-M-Frank/recreate-it, licensed CC BY-SA 4.0. Changes: [brief description].
+
+Keep any supplied contributor credits. Third-party material explicitly identified with its own license remains under those terms; the license texts themselves are not relicensed by this notice.
+
+The official-challenge rules describe this project's published catalog. They do not add restrictions to the reuse rights granted by the licenses. A fork or adaptation is not automatically an official Reinvent It release, and attribution must not imply endorsement.

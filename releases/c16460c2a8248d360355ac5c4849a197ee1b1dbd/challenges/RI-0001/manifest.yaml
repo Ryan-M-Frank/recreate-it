@@ -1,0 +1,19 @@
+id: RI-0001
+title: The Forgetful Elevator
+version: "0.1.0"
+protocol_version: "0.1.0"
+type: solo
+status: archived
+original_playtest: true
+specification: fixed-replay
+official_repository: https://github.com/Ryan-M-Frank/recreate-it
+player_file: player.md
+gm_file: gm.md
+gm_contains_spoilers: true
+stage_count: 1
+release: null
+submission_close: null
+reveal: null
+submission_destination: null
+# Pin this manifest and both packets to the same repository commit.
+# Fingerprints and comparison material belong only in gm.md.

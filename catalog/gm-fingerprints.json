@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "contains_spoilers": true,
+  "notice": "GM ONLY. Do not show or summarize these fingerprints before reveal. Use privately to compare HISTORY.",
+  "entries": [
+    {
+      "code": "RI-0001@0.1.0",
+      "core_concepts": ["dynamic ordered sets", "predecessor and successor", "hierarchical indexing"],
+      "mechanisms": ["linked active regions", "cached neighbor information", "radix-style decomposition", "sparse allocation"],
+      "domain": "data structures",
+      "note": "Sparse allocation belongs to the historical extension and is not required by the fixed replay. Fingerprints aid overlap assessment; they are not acceptance criteria."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://reinventit.org/catalog/catalog.schema.json",
+  "title": "Reinvent It spoiler-free released catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "catalog_version",
+    "released_at",
+    "official_origin",
+    "official_repository",
+    "status_url",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "catalog_version": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*$"
+    },
+    "released_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "official_origin": {
+      "const": "https://reinventit.org"
+    },
+    "official_repository": {
+      "const": "https://github.com/Ryan-M-Frank/recreate-it"
+    },
+    "status_url": {
+      "const": "https://reinventit.org/catalog/status.json"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "version",
+          "code",
+          "title",
+          "description",
+          "area",
+          "difficulty",
+          "duration_minutes",
+          "measurement_note",
+          "status",
+          "modes",
+          "source_commit",
+          "protocol_version",
+          "original_playtest",
+          "run_url",
+          "play_url",
+          "player_url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^RI-[0-9]{4}$"
+          },
+          "version": {
+            "type": "string",
+            "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+          },
+          "code": {
+            "type": "string",
+            "pattern": "^RI-[0-9]{4}@(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "area": {
+            "type": "string",
+            "minLength": 1
+          },
+          "difficulty": {
+            "enum": [
+              null,
+              "introductory",
+              "intermediate",
+              "advanced"
+            ]
+          },
+          "duration_minutes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "measurement_note": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "active",
+              "archived"
+            ]
+          },
+          "modes": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "solo",
+                "weekly"
+              ]
+            }
+          },
+          "source_commit": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{40}$"
+          },
+          "protocol_version": {
+            "type": "string"
+          },
+          "original_playtest": {
+            "type": "boolean"
+          },
+          "run_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "play_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "player_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    }
+  }
+}

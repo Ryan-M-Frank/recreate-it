@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "code": "RI-0001@0.1.0",
+  "challenge_id": "RI-0001",
+  "challenge_version": "0.1.0",
+  "protocol_version": "0.1.0",
+  "source_commit": "c16460c2a8248d360355ac5c4849a197ee1b1dbd",
+  "mode": "solo",
+  "status_at_release": "archived",
+  "status_url": "https://reinventit.org/catalog/status.json",
+  "files": [
+    {
+      "path": "challenges/RI-0001/gm.md",
+      "role": "gm",
+      "contains_spoilers": true,
+      "sha256": "7c8ff1149ad24b6b22699a29ab5dda82f25a92d701f80054ba87c24fbf999d53",
+      "source_blob": "18b0d7229dcd711aca0d6131b8d8164e9511cecd",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/challenges/RI-0001/gm.md",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/challenges/RI-0001/gm.md"
+    },
+    {
+      "path": "challenges/RI-0001/manifest.yaml",
+      "role": "manifest",
+      "contains_spoilers": false,
+      "sha256": "c2a1541b5d61ecf295169bf15f1156c455dac5f1860dd9acf64f58ad2e9fb7dc",
+      "source_blob": "4bc3defd96e5c68574fa0531234328f94d831acd",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/challenges/RI-0001/manifest.yaml",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/challenges/RI-0001/manifest.yaml"
+    },
+    {
+      "path": "challenges/RI-0001/player.md",
+      "role": "player",
+      "contains_spoilers": false,
+      "sha256": "739db41f76e296baef371b9785efec8ed5aac1e479ae6c4a1b804034c0b5a981",
+      "source_blob": "73d129ad34b6cf764cc76905843864ff4e3e96d2",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/challenges/RI-0001/player.md",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/challenges/RI-0001/player.md"
+    },
+    {
+      "path": "docs/weekly-challenges.md",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "4c390db143c7ce3cc961766aba66632b16cb94d75e0b8fd5544fba1f034c0e99",
+      "source_blob": "be21573ef6487ae73a9a2690aac7977c3237271a",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/docs/weekly-challenges.md",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/docs/weekly-challenges.md"
+    },
+    {
+      "path": "GAME.md",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "090920f3b6b2b62ffaa1158a067308aec57782ed8ae2b96635fe12c7ff4bb67c",
+      "source_blob": "dd0288318bfc5ae375ebd3a87d4ff7d68b6e531e",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/GAME.md",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/GAME.md"
+    },
+    {
+      "path": "GM_PROTOCOL.md",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "d08d8241e5b7e56f405ef0382114e3cff92a9227f0537988a5dcb1d6902a816a",
+      "source_blob": "d0c176c765b80c066d82c861e6a5ece21d360be0",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/GM_PROTOCOL.md",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/GM_PROTOCOL.md"
+    },
+    {
+      "path": "HISTORY_TEMPLATE.md",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "b6ffa110e31e520e0e62f1a0c340f4a0e83b9d9b4badcc0bb3875960fd02a46e",
+      "source_blob": "8f43a7da2d42bc29f6ffe2d3ff9ee27ff0f7de15",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/HISTORY_TEMPLATE.md",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/HISTORY_TEMPLATE.md"
+    },
+    {
+      "path": "LICENSE",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "86b5b2a374b21af5fb58807656f079f1f8858f260abd61a9305ddd915e215917",
+      "source_blob": "903f35e9ac3fc698242d1d247d7d73923304eba1",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/LICENSE",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/LICENSE"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "be09bd8b17135e93c8b91cde7ca3365f8d08346cb721f2069329e1d50acc1b25",
+      "source_blob": "2218c7e35461ae1a41d3b2d461f105dad2576871",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/LICENSE-CODE",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/LICENSE-CODE"
+    },
+    {
+      "path": "LICENSE-CONTENT",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "cde7883b9050a1104f4ac19a1572aafd6e5d7323b68351aaf51fbf4beba54966",
+      "source_blob": "835a6836b385fa068fdd625685548845cda60c2f",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/LICENSE-CONTENT",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/LICENSE-CONTENT"
+    },
+    {
+      "path": "NOVELTY_PROTOCOL.md",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "41a79ab6c3a5cfb32026f943e9136b50ab70eee449fdeae862e7a9d12598e9d7",
+      "source_blob": "59dba1cd29af280dd733b9c74fdd6333e38f5a53",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/NOVELTY_PROTOCOL.md",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/NOVELTY_PROTOCOL.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "24eeae719faf6601205ee3064ebc40d266a1b11577864c4b8faf0977e0c381a3",
+      "source_blob": "5c93c00428ec5ae1f9d53a5de2914ab60504936a",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/SECURITY.md",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/SECURITY.md"
+    },
+    {
+      "path": "site/README.md",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "6d961e7c574652121c5b3dd798c93c08de05a2efef7b9e0c167c8ef37853c789",
+      "source_blob": "b7e470c9f5e7a91c91d6f3ec53d5c112f197277e",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/site/README.md",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/site/README.md"
+    },
+    {
+      "path": "SUBMISSION_TEMPLATE.md",
+      "role": "protocol_or_support",
+      "contains_spoilers": false,
+      "sha256": "fe395c2aba57f8b6d1dfdfd1fc29b479162cd63d66144c61ea4f2d53dadd89c9",
+      "source_blob": "b8d52151505f1bff476c65b770e687c43352fba9",
+      "source_url": "https://raw.githubusercontent.com/Ryan-M-Frank/recreate-it/c16460c2a8248d360355ac5c4849a197ee1b1dbd/SUBMISSION_TEMPLATE.md",
+      "mirror_url": "https://reinventit.org/releases/c16460c2a8248d360355ac5c4849a197ee1b1dbd/SUBMISSION_TEMPLATE.md"
+    }
+  ]
+}

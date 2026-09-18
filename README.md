@@ -24,6 +24,14 @@ This is the initial **v0.1** release.
 
 Start at **[reinventit.org](https://reinventit.org)** to copy the starter prompt and find the first challenge. The [GitHub repository](https://github.com/Ryan-M-Frank/recreate-it) remains the official source for the versioned game files. You do not need a Reinvent It account or a GitHub account to read or download the public game files. Your chosen AI service may have its own access requirements.
 
+## Choose a challenge or share a run
+
+Browse the [released challenge library](https://reinventit.org/challenges/) or [start with your AI](https://reinventit.org/play/). The AI entry point is [start.md](https://reinventit.org/start.md), with matching files in this repository.
+
+Use RI-0001@0.1.0 to play the exact same released elevator challenge as a friend. A permanent code pins the complete packet and protocol snapshot. Automatic selection uses HISTORY to avoid conceptual repeats; a shared code never silently changes the challenge. There is currently one released challenge. The 100-challenge collection is a roadmap, not an availability claim.
+
+See [catalog and run codes](docs/catalog-and-run-codes.md), the [collection plan](docs/challenge-collection.md), and [reported AI compatibility](docs/ai-compatibility.md). The protocol and historical challenge files remain pinned to their original commits.
+
 ## What you need
 
 - An AI tool that can follow a multi-file Markdown protocol and retain enough context for a round.
@@ -41,27 +49,16 @@ Copy this prompt into your AI tool:
 ```text
 Let's play Reinvent It in solo mode.
 
-Official repository:
-https://github.com/Ryan-M-Frank/recreate-it
+Read https://reinventit.org/start.md and follow its official discovery instructions.
 
-Read GAME.md, GM_PROTOCOL.md, and SECURITY.md. Resolve the current
-repository commit and use that same commit for all protocol and
-challenge files throughout this attempt.
+Choose a released challenge using my HISTORY.md if I provide it. Avoid conceptual repeats and vary your choice among suitable unseen challenges. If none is fresh, tell me and offer an intentional repeat.
 
-Run RI-0001, The Forgetful Elevator. Retrieve its manifest.yaml,
-player.md, and gm.md yourself. Keep GM-only content, target concepts,
-algorithm names, and comparison material out of your replies until
-I explicitly finish the round and request the reveal.
+Load the pinned game rules and player/GM packets yourself. Keep GM-only material, target names, and answers out of your replies until I finish and request the reveal. Present all fixed requirements, let me invent, and ask before giving hints.
 
-I am a new player and have no HISTORY.md yet. Help me create one
-from HISTORY_TEMPLATE.md. Present the public setup and all fixed
-requirements, then let me propose an idea. Ask before giving hints.
-
-If you cannot access a required file, tell me which one is missing.
-Do not substitute an invented challenge.
+If any required file cannot be retrieved, name it and stop rather than inventing its contents.
 ```
 
-If you already have a history, attach it and replace the "new player" paragraph with: "Use my attached HISTORY.md and disclose whether this challenge repeats concepts I have already encountered."
+If you already have a history, attach it and add: "Use my attached HISTORY.md and disclose whether this challenge repeats concepts I have already encountered."
 
 ### 2. Let the GM load the game
 
@@ -154,7 +151,7 @@ See [the weekly rules](docs/weekly-challenges.md) for the full lifecycle.
 | --- | --- |
 | Official domain | [reinventit.org](https://reinventit.org) — registered through Cloudflare |
 | Website / getting-started page | [Live at reinventit.org](https://reinventit.org) |
-| Challenge catalog | RI-0001 on the website; source packets in this repository |
+| Challenge catalog | Released catalog, permanent run codes, website packet mirrors, and GitHub copies; one challenge available |
 | Current weekly challenge | None scheduled |
 | Release, close, and reveal times | To be announced in UTC for each event |
 | Private submission destination | Not implemented |
@@ -189,7 +186,7 @@ RI-0001 preserves the original elevator playtest. Its spoiler-bearing GM packet 
 
 ## Website source
 
-The landing page and Cloudflare deployment configuration live in [site/](site/README.md). The site is a small public guide with a copyable starter prompt; it does not run an AI backend or accept submissions.
+The landing page, challenge catalog, permanent run pages, plain-text packets, and Cloudflare deployment configuration live in [site/](site/README.md). The site distributes versioned game material; it does not run an AI backend or accept submissions.
 
 Created by **Ryan M. Frank**.
 

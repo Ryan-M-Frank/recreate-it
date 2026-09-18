@@ -93,6 +93,7 @@ footer p{margin:0}
 footer a{color:var(--ink)}
 @media(max-width:800px){.hero{gap:2.5rem;padding-top:3rem}.wrap{width:min(1120px,calc(100% - 2.5rem))}h1{font-size:3.2rem}.launch{padding:1.4rem}.version{display:none}.steps ol{gap:1rem}.challenge{grid-template-columns:1fr 1.35fr}}
 @media(max-width:740px){.hero{grid-template-columns:1fr;gap:1.8rem;padding:2.2rem 0 2.5rem}h1{max-width:12ch;font-size:3.2rem;margin-bottom:1rem}.intro{font-size:1.05rem}.launch{box-shadow:4px 4px 0 var(--ink)}nav{gap:1rem;font-size:.875rem}.brand{font-size:1.15rem}.steps ol{grid-template-columns:1fr;gap:1.4rem}.steps{padding:2rem 0}.challenge{grid-template-columns:1fr}.challenge-label{border-right:0;border-bottom:1px solid var(--line);padding:1.5rem}.challenge-body{padding:1.5rem}.guide{grid-template-columns:1fr;gap:2rem;padding:2rem 0}.section-heading{align-items:flex-start;flex-direction:column;gap:.4rem}.principle{font-size:1.4rem}.challenge-section{padding:2rem 0}.footer-row{display:block}.footer-row p+p{margin-top:.5rem}}
+@media(max-width:520px){.nav{flex-wrap:wrap;justify-content:center;gap:.8rem}.brand{white-space:nowrap}nav{width:100%;justify-content:center}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 <!-- Licensing: HTML/CSS/JavaScript MIT; original page copy and starter prompt CC BY-SA 4.0. See repository LICENSE. -->
@@ -102,7 +103,7 @@ footer a{color:var(--ink)}
 <header>
 <div class="wrap nav">
 <a class="brand" href="/" aria-label="Reinvent It home"><span class="mark" aria-hidden="true">R</span> Reinvent It <span class="version">v0.1</span></a>
-<nav aria-label="Main navigation"><a href="#how">How to play</a><a href="https://github.com/Ryan-M-Frank/recreate-it">GitHub</a></nav>
+<nav aria-label="Main navigation"><a href="/challenges/">Challenges</a><a href="#how">How to play</a><a href="https://github.com/Ryan-M-Frank/recreate-it">GitHub</a></nav>
 </div>
 </header>
 <main id="main" class="wrap">
@@ -114,9 +115,9 @@ footer a{color:var(--ink)}
 <p class="aside">Explore correctness, complexity, and tradeoffs. Code optional.</p>
 </div>
 <div class="launch" id="play">
-<p class="eyebrow">Start your first round</p>
+<p class="eyebrow">Find your next challenge</p>
 <h2>Your AI is the Game Master.</h2>
-<p>Copy the prompt, paste it into a new AI conversation, and let the game begin.</p>
+<p>Let your AI choose a released challenge using your history, or <a href="/play/">enter a shared run code</a>.</p>
 <button class="primary" id="copy" type="button">Copy starter prompt</button>
 <p class="status" id="copy-status" role="status" aria-live="polite">Works with an AI that can read the linked files.</p>
 <details id="prompt-details">
@@ -124,18 +125,13 @@ footer a{color:var(--ink)}
 <label class="small" for="starter">Select this text and copy it into your AI.</label>
 <textarea id="starter" readonly spellcheck="false">Let's play Reinvent It in solo mode.
 
-Official repository:
-https://github.com/Ryan-M-Frank/recreate-it
+Read https://reinventit.org/start.md and follow its official discovery instructions.
 
-Read GAME.md, GM_PROTOCOL.md, and SECURITY.md. Resolve the current repository commit and use that same commit for all protocol and challenge files throughout this attempt.
+Choose a released challenge using my HISTORY.md if I provide it. Avoid conceptual repeats and vary your choice among suitable unseen challenges. If none is fresh, tell me and offer an intentional repeat.
 
-Run RI-0001, The Forgetful Elevator. Retrieve its manifest.yaml, player.md, and gm.md yourself. Keep GM-only content, target concepts, algorithm names, and comparison material out of your replies until I explicitly finish the round and request the reveal.
+Load the pinned game rules and player/GM packets yourself. Keep GM-only material, target names, and answers out of your replies until I finish and request the reveal. Present all fixed requirements, let me invent, and ask before giving hints.
 
-Use my HISTORY.md if I provide one; otherwise help me create one from HISTORY_TEMPLATE.md. Tell me if this challenge repeats concepts I've already encountered, without spoiling the target.
-
-Present the public setup and all fixed requirements, then let me propose an idea. Ask before giving hints. Test my design against the stated requirements without adding new constraints to force a particular solution.
-
-If you cannot access a required file, tell me which one is missing. Do not substitute an invented challenge.</textarea>
+If any required file cannot be retrieved, name it and stop rather than inventing its contents.</textarea>
 </details>
 <p class="small">No web access? Use the <a href="https://github.com/Ryan-M-Frank/recreate-it#alternative-use-downloaded-files">downloaded-file instructions</a>.</p>
 </div>
@@ -158,15 +154,16 @@ If you cannot access a required file, tell me which one is missing. Do not subst
 <p class="why-note">Independently discovering a known idea is a win, too.</p>
 </section>
 <section class="challenge-section rule" aria-labelledby="challenge-heading">
-<div class="section-heading"><h2 id="challenge-heading">Your first challenge</h2><span class="note">Solo play · available now</span></div>
+<div class="section-heading"><h2 id="challenge-heading">Explore the collection</h2><span class="note">Solo play · available now</span></div>
 <article class="challenge">
 <div class="challenge-label"><span class="badge">RI-0001</span><h3>The Forgetful Elevator</h3><p>The original playtest, with fixed replay rules.</p></div>
 <div class="challenge-body">
 <p>A thousand floors. Requests arriving in any order. How would you keep track of where the elevator needs to go next?</p>
 <p>Your job is to invent a way to organize those requests. The GM will give you the complete rules before you begin.</p>
-<a class="textlink" href="https://github.com/Ryan-M-Frank/recreate-it/blob/main/challenges/RI-0001/player.md">Read the spoiler-free challenge</a>
+<a class="textlink" href="/play/RI-0001@0.1.0">Explore and play this challenge</a>
 </div>
 </article>
+<p><a class="textlink" href="/challenges/">Browse all released challenges</a> &middot; <a href="/play/">Use a shared run code</a></p>
 <p class="principle">The goal isn’t to guess a known algorithm.<br>It’s to invent before you know the answer.</p>
 </section>
 <section class="guide rule" aria-label="Game guide and questions">
@@ -186,7 +183,7 @@ If you cannot access a required file, tell me which one is missing. Do not subst
 <details><summary>Can I pause without spoiling it?</summary><p>Yes. Say “Pause without revealing anything,” then save the progress summary and challenge version. Bring them back when you want to continue.</p></details>
 <details><summary>How do I avoid repeating a concept?</summary><p>Keep a private HISTORY.md and give it to your GM next time. It tracks the ideas you’ve already encountered. Only one challenge is available so far, so a fresh next round may need to wait.</p></details>
 <details><summary>Where are the answers?</summary><p>In a separate GM packet that your AI reads. Avoid opening files named gm.md or expanding their previews during play. They’re publicly accessible; the separation is there to prevent accidental spoilers.</p></details>
-<details><summary>What if I invent something new?</summary><p>Independent invention is worth celebrating. A claim of novelty takes more: a precise description, correctness and performance analysis, and prior-art review after the round.</p></details>
+<details><summary>What if I invent something new?</summary><p>Independent invention is worth celebrating. If your AI flags a possible difference, you choose whether to investigate it. A claim of novelty takes a precise description, correctness and performance analysis, and prior-art review after the round.</p></details>
 </div>
 </section>
 </main>
